@@ -7,9 +7,10 @@ The Employee Management System is a web application designed to manage employee 
 - **Create**: Add new employees to the system with their details such as name, age, salary, and department.
 - **Read**: View a list of all employees along with their details.
 - **Update**: Modify the details of existing employees.
-- **Delete**: Remove employees from the system.
-- **Filter**: Filter employees based on specific criteria such as department or salary range.
-- **Search**: Search for employees by their name.
+- **Delete**: Remove employees from the system
+.
+- **Sort**: Filter employees based on specific criteria such as name or salary range.
+- **Search**: Search for employees by their name or depsrtment.
 - **Responsive Design**: The system is designed to be responsive and work seamlessly across various devices and screen sizes.
 
 ## Installation
@@ -19,8 +20,10 @@ To run the Employee Management System locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
 3. Install dependencies by running `npm install`.
-4. Start the server using `node app.js`.
+4. Start the server using `node index.js`.
 5. Open your web browser and go to `localhost:5000`.
+6. cd frontend
+7. run npm start
 
 ## Technology Stack
 
@@ -39,12 +42,4 @@ To run the Employee Management System locally, follow these steps:
 
 ## Demo
 
-For a live demo of the Employee Management System, visit [Demo Link](#)  <!-- Replace "#" with your actual demo website URL -->
-
-## Contributing
-
-Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+For a live demo of the Employee Management System, visit [Demo Link](https://presidio-task-employe-management-system.onrender.com/)
